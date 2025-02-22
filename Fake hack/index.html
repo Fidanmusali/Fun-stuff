@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacked</title>
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #121212;
+            color: #e0e0e0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: red;
+            text-shadow: 0 0 15px red, 0 0 30px red;
+        }
+
+        .error-box {
+            background-color: rgba(255, 0, 0, 0.8);
+            color: white;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.9);
+            animation: shake 0.5s infinite alternate;
+        }
+
+        .error-box h2 {
+            font-size: 50px;
+            margin: 0;
+            animation: flicker 1s infinite;
+        }
+
+        .virus-message {
+            font-size: 25px;
+            color: yellow;
+            font-weight: bold;
+            animation: flicker 1s infinite;
+        }
+
+        .alert {
+            background-color: rgba(255, 0, 0, 0.7);
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 0 0 5px white;
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes shake {
+            0% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .eyes {
+            position: fixed;
+            top: 30%;
+            left: 40%;
+            font-size: 120px;
+            color: white;
+            opacity: 0.8;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.1;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>VİRUS AŞKARLANDI!</h1>
+    <div class="eyes">👀</div>
+    <div class="error-box">
+        <h2>VİRUS TƏHLÜKƏSİ</h2>
+        <h2>Hacked</h2>
+        <p class="virus-message">Sistemdə çox təhlükəli bir virus tapıldı!</p>
+        <p class="alert">Sisteminizi dərhal bağlayın!</p>
+    </div>
+
+    <div class="error-box">
+        <h2>Bilmədiyiniz linklərə daxil olmayın cavanlar!</h2>
+        <p class="virus-message">
+            İstifadəçi məlumatlarınız artıq təhlükəyə məruz qalıb.
+        </p>
+    </div>
+    <audio autoplay loop>
+        <source src="error-83494.mp3" type="audio/mpeg">
+        Sizin brauzeriniz audio dəstəkləmir.
+    </audio>
+    <script>
+        setTimeout(function () {
+            alert(
+                "Bu sadəcə zarafatdir! Hələlik, heç bir təhlükə yoxdur. Yaxşı ki, qorxmadınız!"
+            );
+        }, 5000); 
+    </script>
+</body>
+
+</html>
